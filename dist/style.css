@@ -571,6 +571,10 @@ video {
   margin-left: 1rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -639,6 +643,10 @@ video {
   width: 10rem;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .place-content-center {
   place-content: center;
 }
@@ -665,6 +673,11 @@ video {
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-lime-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 98 18 / var(--tw-bg-opacity));
 }
 
 .p-2 {
