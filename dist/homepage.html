@@ -12,14 +12,19 @@
         <div class="text-3xl font-bold text-indigo-700">
             Logo
         </div>
-        <ul class="flex">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
+        <ul class="hidden md:flex font-semibold">
+            <li class="mx-3 cursor-pointer">Home</li>
+            <li class="mx-3 cursor-pointer">About Us</li>
+            <li class="mx-3 cursor-pointer">Contact Us</li>
         </ul>
-        <div>
+        <div class="hidden md:block bg-indigo-700 text-white px-2 py-1 rounded-md
+        cursor-pointer">
             login
         </div>
+        <div class="md:hidden font-bold text-3xl text-indigo-700">    
+            <a href="#">&#9776;</a>
+        </div>
      </nav>
+     <!-- navbar ends here -->
 </body>
 </html>
